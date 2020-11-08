@@ -423,7 +423,7 @@ const USAMap = props => (
   </text>
   <g>
     <path
-      fill="none"
+      fill={setColor("CT", props.value)}
       stroke="#fff"
       strokeDasharray="none"
       strokeDashoffset="0"
@@ -473,7 +473,7 @@ const USAMap = props => (
   ></path>
   <g>
     <path
-      fill="none"
+      fill={setColor("DC", props.value)}
       stroke="#fff"
       strokeDasharray="none"
       strokeDashoffset="0"
@@ -523,7 +523,7 @@ const USAMap = props => (
   ></path>
   <g>
     <path
-      fill="none"
+      fill={setColor("DE", props.value)}
       stroke="#fff"
       strokeDasharray="none"
       strokeDashoffset="0"
@@ -863,7 +863,7 @@ const USAMap = props => (
   </text>
   <g>
     <path
-      fill="none"
+    fill={setColor("MA", props.value)}
       stroke="#fff"
       strokeDasharray="none"
       strokeDashoffset="0"
@@ -912,7 +912,7 @@ const USAMap = props => (
     d="M873.49 159.843l25.715-9.092 82.748 33.156"
   ></path>
   <path
-    fill="none"
+    fill={setColor("MD", props.value)}
     stroke="#fff"
     strokeDasharray="none"
     strokeDashoffset="0"
@@ -1224,7 +1224,7 @@ const USAMap = props => (
   </text>
   <g>
     <path
-      fill="none"
+      fill={setColor("NH", props.value)}
       stroke="#fff"
       strokeDasharray="none"
       strokeDashoffset="0"
@@ -1274,7 +1274,7 @@ const USAMap = props => (
   ></path>
   <g>
     <path
-      fill="none"
+      fill={setColor("NJ", props.value)}
       stroke="#fff"
       strokeDasharray="none"
       strokeDashoffset="0"
@@ -1527,7 +1527,7 @@ const USAMap = props => (
   </text>
   <g>
     <path
-      fill="none"
+      fill={setColor("RI", props.value)}
       stroke="#fff"
       strokeDasharray="none"
       strokeDashoffset="0"
@@ -1751,7 +1751,7 @@ const USAMap = props => (
   </text>
   <g stroke="#fff" strokeOpacity="1">
     <path
-      fill="none"
+      fill={setColor("VT", props.value)}
       strokeDasharray="none"
       strokeDashoffset="0"
       strokeMiterlimit="4"
