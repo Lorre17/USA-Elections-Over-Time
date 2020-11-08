@@ -56,13 +56,13 @@ const setColor = (abbr, year) => {
       "WI": "Wisconsin",
       "WY": "Wyoming"
   }
-  if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty === 'republican') {
+  if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty.includes('republican')) {
     return '#d7321e';
-  } else if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty === 'democrat') {
+  } else if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty.includes('democrat')) {
     return '#0a3d7f';
-  } else if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty === 'libertarian') {
+  } else if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty.includes('libertarian')) {
     return '#d7b112';
-  } else if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty === 'green') {
+  } else if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty.includes('green')) {
     return '#528b1a';
   } else {
     return '#808080';
@@ -70,10 +70,12 @@ const setColor = (abbr, year) => {
 }
 
 const USAMap = props => (
-  <svg xmlns="http://www.w3.org/2000/svg" 
-    width="959"
+  <svg xmlns="http://www.w3.org/2fff/svg" 
+    width="1100"
     height="593"
-    fill="#D3D3D3" {...props}
+    fill="#D3D3D3" 
+    className="svg-map"
+    {...props}
   >
     <title>Blank US states map</title>
     <defs>
@@ -238,7 +240,1681 @@ const USAMap = props => (
       <circle id="DC2" stroke="#FFFFFF" strokeWidth="1.5" cx="801.3" cy="251.8" r="5" opacity="1"/>
     </g>
   </g>
-  <path id="frames" fill="none" stroke="#A9A9A9" strokeWidth="2" d="M215 493v55l36 45M0 425h147l68 68h85l54 54v46"/>
+  <path id="frames" fill="none" stroke="#A9A9A9" strokeWidth="1" d="M215 493v55l36 45M0 425h147l68 68h85l54 54v46"/>
+  <path
+    fill="none"
+    stroke="#a9a9a9"
+    strokeWidth="1"
+    d="M207 497v55l36 45M-4 429h144l67 68h86l53 54v46"
+  ></path>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="117.575"
+    y="509.78"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="117.575" y="509.78">
+      AK
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="649.141"
+    y="439.233"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="649.141" y="420.233">
+      AL
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="540.093"
+    y="383.815"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="540.093" y="383.815">
+      AR
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="203.843"
+    y="356.797"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="203.843" y="370.797">
+      AZ
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="60.258"
+    y="283.587"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="65.258" y="283.587">
+      CA
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="320.582"
+    y="294.211"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="320.582" y="294.211">
+      CO
+    </tspan>
+  </text>
+  <g>
+    <path
+      fill="none"
+      stroke="#fff"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeOpacity="1"
+      strokeWidth="1"
+      d="M1566.793 1266.357a21.317 15.988 0 11-42.634 0 21.317 15.988 0 1142.633 0z"
+      opacity="0.75"
+      transform="matrix(1.75002 0 0 1.52069 -1703.814 -1652.315)"
+    ></path>
+    <text
+      x="1002.702"
+      y="287.104"
+      style={{
+        WebkitTextAlign: "center",
+        textAlign: "center",
+        lineHeight: "100%",
+      }}
+      fill="#fff"
+      fillOpacity="1"
+      stroke="none"
+      fontFamily="Arial"
+      fontSize="24"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      textAnchor="middle"
+      writingMode="lr-tb"
+      xmlSpace="preserve"
+    >
+      <tspan x="1002.702" y="287.104">
+        CT
+      </tspan>
+    </text>
+  </g>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="8"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M859.16 185.084l25.904 10.846 81.71 88.087"
+  ></path>
+  <g>
+    <path
+      fill="none"
+      stroke="#fff"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeOpacity="1"
+      strokeWidth="1"
+      d="M1566.793 1266.357a21.317 15.988 0 11-42.634 0 21.317 15.988 0 1142.633 0z"
+      opacity="0.75"
+      transform="matrix(1.75002 0 0 1.52069 -1703.814 -1414.949)"
+    ></path>
+    <text
+      x="1001.992"
+      y="524.034"
+      style={{
+        WebkitTextAlign: "center",
+        textAlign: "center",
+        lineHeight: "100%",
+      }}
+      fill="#fff"
+      fillOpacity="1"
+      stroke="none"
+      fontFamily="Arial"
+      fontSize="24"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      textAnchor="middle"
+      writingMode="lr-tb"
+      xmlSpace="preserve"
+    >
+      <tspan x="1001.992" y="524.034">
+        DC
+      </tspan>
+    </text>
+  </g>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="8"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M798.183 255.036l34.738 44.207 138.123 226.13"
+  ></path>
+  <g>
+    <path
+      fill="none"
+      stroke="#fff"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeOpacity="1"
+      strokeWidth="1"
+      d="M1566.793 1266.357a21.317 15.988 0 11-42.634 0 21.317 15.988 0 1142.633 0z"
+      opacity="0.75"
+      transform="matrix(1.75002 0 0 1.52069 -1703.814 -1537.895)"
+    ></path>
+    <text
+      x="1001.956"
+      y="400.155"
+      style={{
+        WebkitTextAlign: "center",
+        textAlign: "center",
+        lineHeight: "100%",
+      }}
+      fill="#fff"
+      fillOpacity="1"
+      stroke="none"
+      fontFamily="Arial"
+      fontSize="24"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      textAnchor="middle"
+      writingMode="lr-tb"
+      xmlSpace="preserve"
+    >
+      <tspan x="1001.956" y="400.155">
+        DE
+      </tspan>
+    </text>
+  </g>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="8"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M825.73 254.75l144.758 148.896"
+  ></path>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="759.405"
+    y="519.382"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="765.405" y="519.382">
+      FL
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="711.659"
+    y="431.239"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="711.659" y="431.239">
+      GA
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="259.511"
+    y="577.241"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="280" y="570">
+      HI
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="509.063"
+    y="224.375"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="509.063" y="224.375">
+      IA
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="187.958"
+    y="172.144"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="187.958" y="162.144">
+      ID
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="592.273"
+    y="254.952"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="592.273" y="254.952">
+      IL
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="639.68"
+    y="254.378"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="639.68" y="254.378">
+      IN
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="426.661"
+    y="305.545"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="426.661" y="305.545">
+      KS
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="676.395"
+    y="318.919"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="676.395" y="310.919">
+      KY
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="553.972"
+    y="488.796"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="543.972" y="460.796">
+      LA
+    </tspan>
+  </text>
+  <g>
+    <path
+      fill="none"
+      stroke="#fff"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeOpacity="1"
+      strokeWidth="1"
+      d="M1566.793 1266.357a21.317 15.988 0 11-42.634 0 21.317 15.988 0 1142.633 0z"
+      opacity="0.75"
+      transform="matrix(1.75002 0 0 1.52069 -1703.814 -1762.51)"
+    ></path>
+    <text
+      x="1001.426"
+      y="175.433"
+      style={{
+        WebkitTextAlign: "center",
+        textAlign: "center",
+        lineHeight: "100%",
+      }}
+      fill="#fff"
+      fillOpacity="1"
+      stroke="none"
+      fontFamily="Arial"
+      fontSize="24"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      textAnchor="middle"
+      writingMode="lr-tb"
+      xmlSpace="preserve"
+    >
+      <tspan x="1001.426" y="175.433">
+        MA
+      </tspan>
+    </text>
+  </g>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="8"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M873.49 159.843l25.715-9.092 82.748 33.156"
+  ></path>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="none"
+    strokeDashoffset="0"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M1566.793 1266.357a21.317 15.988 0 11-42.634 0 21.317 15.988 0 1142.633 0z"
+    opacity="0.75"
+    transform="matrix(1.75002 0 0 1.52069 -1703.814 -1473.721)"
+  ></path>
+  <g>
+    <text
+      x="1002.957"
+      y="464.918"
+      style={{
+        WebkitTextAlign: "center",
+        textAlign: "center",
+        lineHeight: "100%",
+      }}
+      fill="#fff"
+      fillOpacity="1"
+      stroke="none"
+      fontFamily="Arial"
+      fontSize="24"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      textAnchor="middle"
+      writingMode="lr-tb"
+      xmlSpace="preserve"
+    >
+      <tspan x="1002.957" y="464.918">
+        MD
+      </tspan>
+    </text>
+  </g>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="8"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M824.683 264.62l142.32 179.702"
+  ></path>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="897.391"
+    y="99.155"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="897.391" y="99.155">
+      ME
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="663.089"
+    y="199.247"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="663.089" y="199.247">
+      MI
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="498.708"
+    y="116.828"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="498.708" y="132">
+      MN
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="532.758"
+    y="316.524"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="532.758" y="316.524">
+      MO
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="591.953"
+    y="417.561"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="591.953" y="417.561">
+      MS
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="290.766"
+    y="108.159"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="290.766" y="108.159">
+      MT
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="773.621"
+    y="348.568"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="773.621" y="340">
+      NC
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="407.757"
+    y="108.227"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="415" y="108.227">
+      ND
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="432.025"
+    y="243.921"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="415" y="235">
+      NE
+    </tspan>
+  </text>
+  <g>
+    <path
+      fill="none"
+      stroke="#fff"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeOpacity="1"
+      strokeWidth="1"
+      d="M1566.793 1266.357a21.317 15.988 0 11-42.634 0 21.317 15.988 0 1142.633 0z"
+      opacity="0.75"
+      transform="matrix(1.75002 0 0 1.52069 -1703.814 -1819.078)"
+    ></path>
+    <text
+      x="1001.609"
+      y="118.957"
+      style={{
+        WebkitTextAlign: "center",
+        textAlign: "center",
+        lineHeight: "100%",
+      }}
+      fill="#fff"
+      fillOpacity="1"
+      stroke="none"
+      fontFamily="Arial"
+      fontSize="24"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      textAnchor="middle"
+      writingMode="lr-tb"
+      xmlSpace="preserve"
+    >
+      <tspan x="1001.609" y="118.957">
+        NH
+      </tspan>
+    </text>
+  </g>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="8"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M862.805 148.507l115.773-21.395"
+  ></path>
+  <g>
+    <path
+      fill="none"
+      stroke="#fff"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeOpacity="1"
+      strokeWidth="1"
+      d="M1566.793 1266.357a21.317 15.988 0 11-42.634 0 21.317 15.988 0 1142.633 0z"
+      opacity="0.75"
+      transform="matrix(1.75002 0 0 1.52069 -1703.814 -1596.459)"
+    ></path>
+    <text
+      x="998.911"
+      y="341.964"
+      style={{
+        WebkitTextAlign: "center",
+        textAlign: "center",
+        lineHeight: "100%",
+      }}
+      fill="#fff"
+      fillOpacity="1"
+      stroke="none"
+      fontFamily="Arial"
+      fontSize="24"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      textAnchor="middle"
+      writingMode="lr-tb"
+      xmlSpace="preserve"
+    >
+      <tspan x="998.911" y="341.964">
+        NJ
+      </tspan>
+    </text>
+  </g>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="8"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M834.589 223.79l26.142 11.557 104.467 102.277"
+  ></path>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="295.74"
+    y="370.12"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="295.74" y="370">
+      NM
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="133.721"
+    y="237.005"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="133.721" y="237.005">
+      NV
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="810.301"
+    y="179.701"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="810.301" y="179.701">
+      NY
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="696.565"
+    y="249.892"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="696.565" y="249.892">
+      OH
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="450.711"
+    y="370.137"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="450.711" y="370.137">
+      OK
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="92.588"
+    y="134.215"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="92.588" y="134.215">
+      OR
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="775.375"
+    y="222.976"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="775.375" y="222.976">
+      PA
+    </tspan>
+  </text>
+  <g>
+    <path
+      fill="none"
+      stroke="#fff"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeOpacity="1"
+      strokeWidth="1"
+      d="M1566.793 1266.357a21.317 15.988 0 11-42.634 0 21.317 15.988 0 1142.633 0z"
+      opacity="0.75"
+      transform="matrix(1.75002 0 0 1.52069 -1703.814 -1706.508)"
+    ></path>
+    <text
+      x="1002.388"
+      y="231.236"
+      style={{
+        WebkitTextAlign: "center",
+        textAlign: "center",
+        lineHeight: "100%",
+      }}
+      fill="#fff"
+      fillOpacity="1"
+      stroke="none"
+      fontFamily="Arial"
+      fontSize="24"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      textAnchor="middle"
+      writingMode="lr-tb"
+      xmlSpace="preserve"
+    >
+      <tspan x="1002.388" y="231.236">
+        RI
+      </tspan>
+    </text>
+  </g>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="8"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M873.338 179.047l99.636 55.713"
+  ></path>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="754.293"
+    y="385.603"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="754.293" y="385.603">
+      SC
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="395.986"
+    y="173.089"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="410" y="173.089">
+      SD
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="645.852"
+    y="359.8"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="645.852" y="355.8">
+      TN
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="429.241"
+    y="468.121"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="429.241" y="468.121">
+      TX
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="218.398"
+    y="297.954"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="218.398" y="267.954">
+      UT
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="784.704"
+    y="302.908"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="784.704" y="302.908">
+      VA
+    </tspan>
+  </text>
+  <g stroke="#fff" strokeOpacity="1">
+    <path
+      fill="none"
+      strokeDasharray="none"
+      strokeDashoffset="0"
+      strokeMiterlimit="4"
+      strokeWidth="1"
+      d="M1566.793 1266.357a21.317 15.988 0 11-42.634 0 21.317 15.988 0 1142.633 0z"
+      opacity="0.75"
+      transform="matrix(1.75002 0 0 1.52069 -1701.237 -1877.971)"
+    ></path>
+    <text
+      x="1004.424"
+      y="60.525"
+      style={{
+        WebkitTextAlign: "center",
+        textAlign: "center",
+        lineHeight: "100%",
+      }}
+      fill="#fff"
+      fillOpacity="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeWidth="1"
+      fontFamily="Arial"
+      fontSize="24"
+      fontStretch="normal"
+      fontStyle="normal"
+      fontVariant="normal"
+      fontWeight="normal"
+      textAnchor="middle"
+      writingMode="lr-tb"
+      xmlSpace="preserve"
+    >
+      <tspan x="1004.424" y="60.525">
+        VT
+      </tspan>
+    </text>
+  </g>
+  <path
+    fill="none"
+    stroke="#fff"
+    strokeDasharray="8"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeMiterlimit="4"
+    strokeOpacity="1"
+    strokeWidth="1"
+    d="M966.023 37.055L844.18 34.64l-3.476 77.85"
+  ></path>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="122.186"
+    y="67.835"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="122.186" y="60.835">
+      WA
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="571.868"
+    y="165.163"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="571.868" y="165.163">
+      WI
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="732.741"
+    y="284.262"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="732.741" y="284.262">
+      WV
+    </tspan>
+  </text>
+  <text
+    xmlSpace="preserve"
+    style={{
+      WebkitTextAlign: "center",
+      textAlign: "center",
+      lineHeight: "100%",
+    }}
+    x="289.248"
+    y="195.265"
+    fill="#fff"
+    fillOpacity="1"
+    stroke="none"
+    strokeLinecap="butt"
+    strokeLinejoin="miter"
+    strokeOpacity="1"
+    strokeWidth="1"
+    fontFamily="Arial"
+    fontSize="24"
+    fontStretch="normal"
+    fontStyle="normal"
+    fontVariant="normal"
+    fontWeight="normal"
+    textAnchor="middle"
+    writingMode="lr-tb"
+  >
+    <tspan x="289.248" y="195.265">
+      WY
+    </tspan>
+  </text>
 </svg>
 );
 

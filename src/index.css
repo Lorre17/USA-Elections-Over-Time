@@ -12,8 +12,12 @@ code {
     monospace;
 }
 
+.svg-map {
+  margin: 0 auto;
+}
+
 .individual_state:hover { 
-  fill: #00bbd5;
+  fill: #5ecd32;
 }
 
 .slidecontainer {
@@ -43,7 +47,7 @@ code {
   appearance: none;
   width: 25px;
   height: 25px;
-  background: rgb(94, 205, 50);
+  background: #5ecd32;
   border-radius: 50%; 
   cursor: pointer;
 }
