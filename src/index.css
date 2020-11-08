@@ -64,3 +64,13 @@ div.map-container {
   background: #000;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 760px) {
+  div.slidecontainer {
+    width: 80vw;
+  }
+
+  svg.svg-map {
+    margin-top: 25vh;
+  }
+}
