@@ -430,13 +430,13 @@
       "totalVotes:": 0 
     },
     "2020": {
-      "winner": "Joe Biden",
-      "winnerParty": "democrat",
-      "winCount": 1627902,
-      "loser": "Donald Trump",
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 755815,
+      "loser": "Joe Biden",
       "loserParty": "republican",
-      "loserCount": 1606714,
-      "totalVotes:": 4911722 
+      "loserCount": 417897,
+      "totalVotes:": 1207936 
     }
   },
   "California": {
@@ -542,11 +542,11 @@
     "2020": {
       "winner": "Joe Biden",
       "winnerParty": "democrat",
-      "winCount": 9015303,
+      "winCount": 9163725,
       "loser": "Donald Trump",
       "loserParty": "republican",
-      "loserCount": 9015303,
-      "totalVotes:": 13900474 
+      "loserCount": 4741191,
+      "totalVotes:": 14183399 
     }
   },
   "Colorado": {
