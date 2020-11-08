@@ -14,30 +14,78 @@ function DataParser() {
   }, []);
 
   const parseData = () => {
-    Object.entries(mapped_states).forEach(([state, entry]) => {
-      Object.entries(entry).forEach(([year, ]) => {
-        if (parseInt(year) !== 2020) {
-          let winningIndex = 0;
-          let winCount = 0;
-          Object.values(president_list).forEach((entry, index) => {
-            if (entry.state === state && parseInt(entry.year) === parseInt(year)) {
-              if (entry.candidatevotes > winCount) {
-                winCount = entry.candidatevotes;
-                winningIndex = index;
-              }
-            }
-          });
-            newMap[state][year].winCount = winCount;
-            newMap[state][year].winner = president_list[winningIndex].candidate;
-            newMap[state][year].winnerParty = president_list[winningIndex].party;
-            newMap[state][year].loser = president_list[winningIndex + 1].candidate;
-            newMap[state][year].loserParty = president_list[winningIndex + 1].party;
-            newMap[state][year].loserCount = president_list[winningIndex + 1].candidatevotes;
-            newMap[state][year].totalVotes = president_list[winningIndex].totalvotes;
-        }
-      })
-  })
-  setMapValues(newMap);
+    const us_states = [
+      "Alabama",
+      "Alaska",
+      "Arizona",
+      "Arkansas",
+      "California",
+      "Colorado",
+      "Connecticut",
+      "Delaware",
+      "District of Columbia",
+      "Florida",
+      "Georgia",
+      "Hawaii",
+      "Idaho",
+      "Illinois",
+      "Indiana",
+      "Iowa",
+      "Kansas",
+      "Kentucky",
+      "Louisiana",
+      "Maine",
+      "Maryland",
+      "Massachusetts",
+      "Michigan",
+      "Minnesota",
+      "Mississippi",
+      "Missouri",
+      "Montana",
+      "Nebraska",
+      "Nevada",
+      "New Hampshire",
+      "New Jersey",
+      "New Mexico",
+      "New York",
+      "North Carolina",
+      "North Dakota",
+      "Ohio",
+      "Oklahoma",
+      "Oregon",
+      "Pennsylvania",
+      "Rhode Island",
+      "South Carolina",
+      "South Dakota",
+      "Tennessee",
+      "Texas",
+      "Utah",
+      "Vermont",
+      "Virginia",
+      "Washington",
+      "West Virginia",
+      "Wisconsin",
+      "Wyoming"
+    ]
+    const years = ["1976", "1980", "1984", "1988", "1992", "1996", "2000", "2004", "2008", "2012", "2016"];
+    for (let i = 0; i < us_states.length; ++i) {
+      for (let j = 0; j < years.length; ++j) {
+        const indexOfwinnerObject =  president_list.findIndex(entry => 
+          entry.state === us_states[i] && parseInt(entry.year) === parseInt(years[j])
+        );
+        console.log('indexOf: ', indexOfwinnerObject);
+        console.log('us_state: ', us_states[i]);
+        console.log('year: ', years[j]);
+        mapped_states[us_states[i]][years[j]].winCount = president_list[indexOfwinnerObject].candidatevotes;
+        mapped_states[us_states[i]][years[j]].winner = president_list[indexOfwinnerObject].candidate;
+        mapped_states[us_states[i]][years[j]].winnerParty = president_list[indexOfwinnerObject].party;
+        mapped_states[us_states[i]][years[j]].loser = president_list[indexOfwinnerObject+1].candidate;
+        mapped_states[us_states[i]][years[j]].loserParty = president_list[indexOfwinnerObject+1].party;
+        mapped_states[us_states[i]][years[j]].loserCount = president_list[indexOfwinnerObject+1].candidatevotes;
+        mapped_states[us_states[i]][years[j]].totalVotes = president_list[indexOfwinnerObject].totalvotes;
+      }
+    }
+    setMapValues(newMap);
   }
 
   return newMap;
