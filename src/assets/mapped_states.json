@@ -98,6 +98,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 1430589,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 834533,
+      "totalVotes:": 2290024 
     }
   },
   "Alaska": {
@@ -199,6 +208,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 118602,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 63992,
+      "totalVotes:": 190090 
     }
   },
   "Arizona": {
@@ -300,6 +318,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 1630127,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 1611414,
+      "totalVotes:": 3290907 
     }
   },
   "Arkansas": {
@@ -401,6 +428,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 1627902,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 1606714,
+      "totalVotes:": 4911722 
     }
   },
   "California": {
@@ -502,6 +538,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 9015303,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 9015303,
+      "totalVotes:": 13900474 
     }
   },
   "Colorado": {
@@ -605,13 +650,13 @@
           "totalVotes:": 0 
         },
         "2020": {
-          "winner": "",
-          "winnerParty": "",
-          "winCount": 0,
-          "loser": "",
-          "loserParty": "",
-          "loserCount": 0,
-          "totalVotes:": 0 
+          "winner": "Joe Biden",
+          "winnerParty": "democrat",
+          "winCount": 1753416,
+          "loser": "Donald Trump",
+          "loserParty": "republican",
+          "loserCount": 1335253,
+          "totalVotes:": 3147673 
         }
   },
   "Connecticut": {
@@ -713,6 +758,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 1029132,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 714981,
+      "totalVotes:": 1771059 
     }
   },
   "Delaware": {
@@ -816,16 +870,16 @@
           "totalVotes:": 0 
         },
         "2020": {
-          "winner": "",
-          "winnerParty": "",
-          "winCount": 0,
-          "loser": "",
-          "loserParty": "",
-          "loserCount": 0,
-          "totalVotes:": 0 
+          "winner": "Joe Biden",
+          "winnerParty": "democrat",
+          "winCount": 295403,
+          "loser": "Donald Trump",
+          "loserParty": "republican",
+          "loserCount": 199829,
+          "totalVotes:": 502344 
         }
   },
-  "District Of Columbia": {
+  "District of Columbia": {
     "1976": {
       "winner": "",
       "winnerParty": "",
@@ -924,6 +978,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 268625,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 15075,
+      "totalVotes:": 286583 
     }
   },
   "Florida": {
@@ -1025,6 +1088,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 5658847,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 5284453,
+      "totalVotes:": 11033962 
     }
   },
   "Georgia":{
@@ -1126,6 +1198,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 2463889,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 2454729,
+      "totalVotes:": 4980447 
     }
   },
   "Hawaii": {
@@ -1227,6 +1308,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 365802,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 196602,
+      "totalVotes:": 573854 
     }
   },
   "Idaho": {
@@ -1328,6 +1418,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 554019,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 286991,
+      "totalVotes:": 867226 
     }
   },
   "Illinois": {
@@ -1429,6 +1528,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },  
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 3056219,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 2316566,
+      "totalVotes:": 5474586 
     }
   },
   "Indiana": {
@@ -1530,6 +1638,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 1725723,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 1239401,
+      "totalVotes:": 3023827 
     }
   },
   "Iowa": {
@@ -1631,6 +1748,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 896100,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 757707,
+      "totalVotes:": 1679638 
     }
   },
   "Kansas": {
@@ -1732,6 +1858,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 752903,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 551144,
+      "totalVotes:": 1333513
     }
   },
   "Kentucky": {
@@ -1833,6 +1968,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 1325742,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 771884,
+      "totalVotes:": 2133901
     }
   },
   "Louisiana": {
@@ -1934,6 +2078,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 1255481,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 855597,
+      "totalVotes:": 2140104
     }
   },
   "Maine": {
@@ -2035,6 +2188,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 430023,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 359502,
+      "totalVotes:": 813317 
     }
   },
   "Maryland": {
@@ -2136,6 +2298,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 1547423,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 853685,
+      "totalVotes:": 2444742 
     }
   },
   "Massachusetts": {
@@ -2237,6 +2408,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 2316338,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 1148777,
+      "totalVotes:": 3529032 
     }
   },
   "Michigan": {
@@ -2338,6 +2518,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 2790648,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 2644525,
+      "totalVotes:": 5516363 
     }
   },
   "Minnesota": {
@@ -2439,6 +2628,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 1717830,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 1484671,
+      "totalVotes:": 3255505 
     }
   },
   "Mississippi": {
@@ -2540,6 +2738,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 677218,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 440284,
+      "totalVotes:": 1129522 
     }
   },
   "Missouri": {
@@ -2641,6 +2848,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 1711848,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 1242851,
+      "totalVotes:": 3007744 
     }
   },
   "Montana": {
@@ -2742,6 +2958,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 341767,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 243719,
+      "totalVotes:": 600680 
     }
   },
   "Nebraska": {
@@ -2843,6 +3068,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 548462,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 367319,
+      "totalVotes:": 935586 
     }
   },
   "Nevada": {
@@ -2944,6 +3178,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 642604,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 616905,
+      "totalVotes:": 1287403 
     }
   },
   "New Hampshire": {
@@ -3045,6 +3288,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 423291,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 365373,
+      "totalVotes:": 801730 
     }
   },
   "New Jersey": {
@@ -3146,6 +3398,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 2029493,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 1385529,
+      "totalVotes:": 3448583 
     }
   },
   "New Mexico": {
@@ -3247,6 +3508,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 496826,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 400095,
+      "totalVotes:": 914651 
     }
   },
   "New York": {
@@ -3348,6 +3618,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 3694996,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 2849085,
+      "totalVotes:": 6632796 
     }
   },
   "North Carolina": {
@@ -3449,6 +3728,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 2733645,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 2658274,
+      "totalVotes:": 5458521 
     }
   },
   "North Dakota": {
@@ -3550,6 +3838,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 234845,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 114480,
+      "totalVotes:": 358672 
     }
   },
   "Ohio": {
@@ -3651,6 +3948,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 3074418,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 2603731,
+      "totalVotes:": 5761250 
     }
   },
   "Oklahoma": {
@@ -3752,6 +4058,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 1018870,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 503289,
+      "totalVotes:": 1556085 
     }
   },
   "Oregon": {
@@ -3853,6 +4168,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 1304536,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 928706,
+      "totalVotes:": 2288626 
     }
   },
   "Pennsylvania": {
@@ -3954,6 +4278,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 3350884,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 3313529,
+      "totalVotes:": 6741840 
     }
   },
   "Rhode Island": {
@@ -4055,6 +4388,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 300325,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 197421,
+      "totalVotes:": 504455 
     }
   },
   "South Carolina": {
@@ -4156,6 +4498,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 1384852,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 1091348,
+      "totalVotes:": 2512874 
     }
   },
   "South Dakota": {
@@ -4257,6 +4608,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 261035,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 150467,
+      "totalVotes:": 422597 
     }
   },
   "Tennessee": {
@@ -4358,6 +4718,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 1849211,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 1139666,
+      "totalVotes:": 3034349 
     }
   },
   "Texas":  {
@@ -4459,6 +4828,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 5865248,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 5217656,
+      "totalVotes:": 11241319 
     }
   },
   "Utah": {
@@ -4560,6 +4938,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 759638,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 489469,
+      "totalVotes:": 1290904 
     }
   },
   "Vermont": {
@@ -4661,6 +5048,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 242805,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 112688,
+      "totalVotes:": 118830 
     }
   },
   "Virginia": {
@@ -4762,6 +5158,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 2364396,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 1946868,
+      "totalVotes:": 4375047 
     }
   },
   "Washington": {
@@ -4863,6 +5268,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 2303430,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 1514563,
+      "totalVotes:": 3915309 
     }
   },
   "West Virginia": {
@@ -4964,6 +5378,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 539610,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 232502,
+      "totalVotes:": 785121 
     }
   },
   "Wisconsin": {
@@ -5065,6 +5488,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Joe Biden",
+      "winnerParty": "democrat",
+      "winCount": 1630570,
+      "loser": "Donald Trump",
+      "loserParty": "republican",
+      "loserCount": 1610030,
+      "totalVotes:": 3289474 
     }
   },
   "Wyoming": {
@@ -5166,6 +5598,15 @@
       "loserParty": "",
       "loserCount": 0,
       "totalVotes:": 0 
+    },
+    "2020": {
+      "winner": "Donald Trump",
+      "winnerParty": "republican",
+      "winCount": 193454,
+      "loser": "Joe Biden",
+      "loserParty": "democrat",
+      "loserCount": 73445,
+      "totalVotes:": 274872 
     }
   }
 }

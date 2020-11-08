@@ -16,7 +16,7 @@ function Slider() {
         <input 
           type="range"
           min="1976"
-          max="2016"
+          max="2020"
           defaultValue="3" 
           onInput={onInput}
           className="slider" 
