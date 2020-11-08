@@ -1,8 +1,9 @@
 import React from 'react';
 import DataParser from './DataParser';
-
+const { mapped_states, loading } = DataParser();
+console.log('mapped_states: ', mapped_states);
+console.log('loading: ', loading);
 const setColor = (abbr, year) => {
-  const mapValues = DataParser();
   const abbrToCountry = {
       "AL": "Alabama",
       "AK": "Alaska",
@@ -56,13 +57,13 @@ const setColor = (abbr, year) => {
       "WI": "Wisconsin",
       "WY": "Wyoming"
   }
-  if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty.includes('republican')) {
+  if (mapped_states[abbrToCountry[abbr]][year.toString()].winnerParty.includes('republican')) {
     return '#d7321e';
-  } else if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty.includes('democrat')) {
+  } else if (mapped_states[abbrToCountry[abbr]][year.toString()].winnerParty.includes('democrat')) {
     return '#0a3d7f';
-  } else if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty.includes('libertarian')) {
+  } else if (mapped_states[abbrToCountry[abbr]][year.toString()].winnerParty.includes('libertarian')) {
     return '#d7b112';
-  } else if (mapValues[abbrToCountry[abbr]][year.toString()].winnerParty.includes('green')) {
+  } else if (mapped_states[abbrToCountry[abbr]][year.toString()].winnerParty.includes('green')) {
     return '#528b1a';
   } else {
     return '#808080';
@@ -70,7 +71,9 @@ const setColor = (abbr, year) => {
 }
 
 const USAMap = props => (
-  <svg xmlns="http://www.w3.org/2fff/svg" 
+  <div>
+  {loading && <div class="lds-hourglass"></div>}
+  {!loading && <svg xmlns="http://www.w3.org/2fff/svg" 
     fill="#D3D3D3" 
     viewBox="0 0 1100 650"
     className="svg-map"
@@ -1915,7 +1918,8 @@ const USAMap = props => (
       WY
     </tspan>
   </text>
-</svg>
+  </svg>}
+</div>
 );
 
 export default USAMap;

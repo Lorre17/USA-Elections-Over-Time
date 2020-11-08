@@ -1,19 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React from 'react';
 import president_list from '../assets/1976-2016-president.json';
 import mapped_states from '../assets/mapped_states.json';
-import createPersistedState from 'use-persisted-state';
 
 function DataParser() {
-  const useSetMapValues = createPersistedState('mapValues');
-  const [, setMapValues] = useSetMapValues({});
-  const newMap = mapped_states;
+  let loading = true;
 
-  React.useEffect(() => {
-    parseData();
-  }, []);
-
-  const parseData = () => {
+  (() => {
+    loading = true;
     const us_states = [
       "Alabama",
       "Alaska",
@@ -73,9 +66,6 @@ function DataParser() {
         const indexOfwinnerObject =  president_list.findIndex(entry => 
           entry.state === us_states[i] && parseInt(entry.year) === parseInt(years[j])
         );
-        console.log('indexOf: ', indexOfwinnerObject);
-        console.log('us_state: ', us_states[i]);
-        console.log('year: ', years[j]);
         mapped_states[us_states[i]][years[j]].winCount = president_list[indexOfwinnerObject].candidatevotes;
         mapped_states[us_states[i]][years[j]].winner = president_list[indexOfwinnerObject].candidate;
         mapped_states[us_states[i]][years[j]].winnerParty = president_list[indexOfwinnerObject].party;
@@ -85,10 +75,13 @@ function DataParser() {
         mapped_states[us_states[i]][years[j]].totalVotes = president_list[indexOfwinnerObject].totalvotes;
       }
     }
-    setMapValues(newMap);
-  }
+    loading = false;
+  })();
 
-  return newMap;
+  return {
+    mapped_states,
+    loading
+  }
 };
 
 export default DataParser;
