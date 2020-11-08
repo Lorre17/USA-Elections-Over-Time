@@ -11,6 +11,7 @@ function Slider() {
 
   return (
     <>
+    <div className="map-container">
       <USAMap value={value} />
       <div className="slidecontainer">
         <input 
@@ -25,6 +26,7 @@ function Slider() {
         />
         <p><span id="demo">{value}</span></p>
       </div>
+    </div>
     </>
   );
 };

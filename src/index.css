@@ -5,11 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #282c34;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div.map-container {
+  width: 100vw !important;
+  height: 100vh !important;
 }
 
 .svg-map {
@@ -23,7 +29,6 @@ code {
 .slidecontainer {
   width: 30%;
   margin: 0 auto;
-  margin-top: 30px;
 }
 
 .slider {

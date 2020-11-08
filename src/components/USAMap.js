@@ -71,10 +71,10 @@ const setColor = (abbr, year) => {
 
 const USAMap = props => (
   <svg xmlns="http://www.w3.org/2fff/svg" 
-    width="1100"
-    height="593"
     fill="#D3D3D3" 
+    viewBox="0 0 1100 650"
     className="svg-map"
+    style={(window.innerWidth < 760) ? { width: "100%", height: "65vw", marginLeft: "10px" } : {width: "100%", height: "45vw", marginTop: "50px" }}
     {...props}
   >
     <title>Blank US states map</title>
